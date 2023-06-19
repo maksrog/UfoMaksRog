@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour
     void UpdateScoreText()
     {
         scoreText.text = "Wynik: " + count;
-        if (count == 3)
+        if (count == 5)
         {
             winText.gameObject.SetActive(true);
             scoreText.gameObject.SetActive(false);
